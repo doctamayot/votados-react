@@ -1,0 +1,49 @@
+.image {
+  width:110px;
+  height:70px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.authoravatar {
+  width:35px;
+  height:33px;
+  border-radius: 50%;
+}
+.writtenby {
+  color: grey
+}
+div.posts-grid{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div.general-grid {
+  /*border-top: 1px solid rgb(202, 202, 202);*/
+  border-bottom: 1px solid rgb(202, 202, 202);
+  align-items: center;
+}
+.votes {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
+.arrow {color: black }
+.arrow:hover {
+  cursor: pointer;
+  color: orangered }
+
+@media (min-width: 768px) {
+  .image {
+    width:210px;
+    height:140px;
+  }
+}
+
+.glyphicon {
+  color: rgb(100, 100, 228);
+}
+
+.boton {
+  color: rgb(100, 100, 228);
+}
